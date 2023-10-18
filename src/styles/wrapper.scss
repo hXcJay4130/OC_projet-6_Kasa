@@ -1,0 +1,30 @@
+.wrapper {
+    width: 86%;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 25px;
+    .wrapper__image {
+        object-fit: fill;
+    }
+    .wrapper__text {
+        position: relative;
+        top: -185%;
+        max-width: 100%;
+        font-size: 48px;
+        color: white;
+        overflow-wrap: normal;
+    }
+}
+
+@media (max-width: 940px) {
+    .wrapper {
+        .wrapper__text {
+            font-size: 24px;
+            margin: 1em;
+        }
+    }
+}

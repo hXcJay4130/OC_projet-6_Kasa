@@ -1,0 +1,35 @@
+.fourzerofour__number {
+    font-size: 288px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.fourzerofour__text {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.fourzerofour__link {
+    font-size: 18px;
+    color: #FF6060;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+}
+.fourzerofour__link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 940px) {
+    .fourzerofour__number {
+        font-size: 96px;
+    }
+    .fourzerofour__text {
+        padding: 0 5rem;
+        font-size: 18px;
+    }
+    .fourzerofour__link {
+        font-size: 14px;
+    }
+}
